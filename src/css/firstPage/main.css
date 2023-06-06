@@ -1,0 +1,73 @@
+.cards{
+    width: 100%;
+    height: 30vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.cards .cards_1{
+    width: 80%;
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+    
+
+}
+.cards .cards_2{
+    width: 80%;
+    height: 14vh;
+    display: flex;
+
+}
+
+.cards .cards_1 img{
+    width: 100%;
+    height: 14vh;
+    background-color: green;
+    border-radius: 10px;
+    margin-left: 10px;
+} 
+
+.cards .cards_2 img{
+    width: 100%;
+    height: 14vh;
+    background-color: green;
+    border-radius: 10px;
+    margin-left: 10px;
+} 
+
+.section {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+   
+}
+.section .gadget1{
+    width: 80%;
+    height: 20vh;
+    background-color: blue;
+    
+}
+
+.section .gadget1 .menu{
+    display: flex;
+    justify-content: space-between;
+    width: 28%;
+    
+}
+.section .gadget1 .menu p{
+    color: #919191;
+   
+}
+
+.section .gadget1 .menu a:hover p{
+    text-decoration: underline;
+    transition: 0.5s;
+   
+}
